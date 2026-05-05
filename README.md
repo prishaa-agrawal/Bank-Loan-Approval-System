@@ -147,7 +147,7 @@ Gradient Boosting     0.88    0.95      0.87        0.89   ← Best
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║       🏦  BANK LOAN APPROVAL SYSTEM  v1.0               ║
+║         BANK LOAN APPROVAL SYSTEM                ║
 ║          AI-Powered Credit Risk Analysis                 ║
 ╚══════════════════════════════════════════════════════════╝
 
@@ -163,10 +163,10 @@ Gradient Boosting     0.88    0.95      0.87        0.89   ← Best
 
 | Band | Approval Probability | Meaning |
 |---|---|---|
-| 🟢 Low Risk | ≥ 80% | Strong applicant, likely approve |
-| 🟡 Medium Risk | 55–79% | Borderline, review manually |
-| 🟠 High Risk | 35–54% | Likely reject, high default risk |
-| 🔴 Very High Risk | < 35% | Reject, very likely to default |
+|  Low Risk | ≥ 80% | Strong applicant, likely approve |
+|  Medium Risk | 55–79% | Borderline, review manually |
+|  High Risk | 35–54% | Likely reject, high default risk |
+|  Very High Risk | < 35% | Reject, very likely to default |
 
 
 

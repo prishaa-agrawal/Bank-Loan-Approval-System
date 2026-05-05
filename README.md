@@ -1,10 +1,10 @@
-# 🏦 Bank Loan Approval System
+#  Bank Loan Approval System
 
 An end-to-end **Credit Risk Analysis** pipeline that predicts whether a bank should approve a loan application using **Logistic Regression**, **Random Forest**, and **Gradient Boosting** — with a fully interactive terminal dashboard.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Banks receive thousands of loan applications daily. Manually reviewing each one is slow and inconsistent. This project builds an **AI-powered loan approval system** that:
 
@@ -15,14 +15,14 @@ Banks receive thousands of loan applications daily. Manually reviewing each one 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 loan-approval/
 │
 ├── train.py          # Full ML pipeline — generate → preprocess → train → evaluate → save
 ├── predict.py        # Batch or demo scoring of applications
-├── dashboard.py      # 🌟 Interactive terminal dashboard
+├── dashboard.py      #  Interactive terminal dashboard
 ├── eda.py            # Exploratory Data Analysis
 │
 ├── src/
@@ -49,7 +49,7 @@ loan-approval/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ```bash
 # 1. Clone the repo
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Step 1 — Train the Models
 ```bash
@@ -99,7 +99,7 @@ python predict.py --csv my_apps.csv    # Score from a CSV file
 
 ---
 
-## 📊 Features Used
+##  Features Used
 
 | Feature | Description |
 |---|---|
@@ -118,7 +118,7 @@ python predict.py --csv my_apps.csv    # Score from a CSV file
 
 ---
 
-## 🧠 ML Techniques
+##  ML Techniques
 
 | Technique | Why |
 |---|---|
@@ -131,7 +131,7 @@ python predict.py --csv my_apps.csv    # Score from a CSV file
 
 ---
 
-## 📈 Sample Results
+##  Sample Results
 
 ```
 Model                 F1      ROC-AUC   Precision   Recall
@@ -143,7 +143,7 @@ Gradient Boosting     0.88    0.95      0.87        0.89   ← Best
 
 ---
 
-## 🖥️ Dashboard Preview
+##  Dashboard Preview
 
 ```
 ╔══════════════════════════════════════════════════════════╗
@@ -151,15 +151,15 @@ Gradient Boosting     0.88    0.95      0.87        0.89   ← Best
 ║          AI-Powered Credit Risk Analysis                 ║
 ╚══════════════════════════════════════════════════════════╝
 
-  Decision         :  ✅  APPROVED
+  Decision         :    APPROVED
   Approval Prob    :  82.3%
-  Risk Assessment  :  🟢 LOW RISK
+  Risk Assessment  :   LOW RISK
   Probability Bar  :  |████████████████████████░░░░░░|
 ```
 
 ---
 
-## 🔄 Risk Bands
+##  Risk Bands
 
 | Band | Approval Probability | Meaning |
 |---|---|---|
@@ -168,26 +168,5 @@ Gradient Boosting     0.88    0.95      0.87        0.89   ← Best
 | 🟠 High Risk | 35–54% | Likely reject, high default risk |
 | 🔴 Very High Risk | < 35% | Reject, very likely to default |
 
----
 
-## 🛠️ Future Improvements
 
-- [ ] Add XGBoost / LightGBM for better performance
-- [ ] SHAP values for explainable AI (why was this rejected?)
-- [ ] Streamlit web dashboard with charts
-- [ ] REST API with FastAPI for real-time scoring
-- [ ] Fairness analysis (bias across demographic groups)
-- [ ] Hyperparameter tuning with Optuna
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
-
----
-
-## 🙋 Author
-
-Built as a portfolio project for open-source contributions.  
-Contributions and PRs welcome!
